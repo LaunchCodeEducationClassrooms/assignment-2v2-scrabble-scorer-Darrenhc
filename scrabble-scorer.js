@@ -60,10 +60,10 @@ let vowelBonusScore = function(word) {
     }
     return vowelBonus;
   }
-  
-
 
 let scrabbleScore;
+
+
 
 const scoringAlgorithms = [
 { name: "Simple Score",
@@ -128,12 +128,12 @@ function transform(oldPointStructure) {
 }
 
 
+
 let newPointStructure = transform(oldPointStructure);
 
 function runProgram() {
    let word = initialPrompt();
    console.log(scorerPrompt(word));
-   
 }
 
 // Don't write any code below this line //
